@@ -1,0 +1,24 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.banner {
+    height: 100vh;
+    width: 100%;
+    background-image: url(../img/banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.content {
+    display: flex;
+    position: absolute;
+    text-align: center;
+    color: white;
+    top: 10%;
+}
+
+.title {
+    flex: 1;
+}
