@@ -14,11 +14,28 @@ body {
 .content {
     display: flex;
     position: absolute;
-    text-align: center;
+    top: 50%;
+    width: 100%;
     color: white;
-    top: 10%;
+    justify-content: space-between;
+    text-align: center;
+    flex-direction: column;
 }
 
-.title {
+.content .title {
     flex: 1;
+    font-weight:bold;
+    font-size: 50px;
+    padding-bottom: 2vh;
+}
+
+.content .sub-title-1 {
+    flex: 1;
+    font-size: 30px;
+}
+
+.content .sub-title-2 {
+    flex: 1;
+    color: grey;
+    font-size: 20px;
 }
