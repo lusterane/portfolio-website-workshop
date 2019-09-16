@@ -47,7 +47,7 @@ body {
 
 /* About Me */
 .section-wrapper {
-    padding-top: 50vh;
+    padding-top: 70vh;
     padding-left: 10vw;
     padding-right: 10vw;
 }
@@ -109,3 +109,17 @@ body {
     padding-left: 2vw;
 }
 
+/* Contact Page */
+
+.connect-icons-wrapper{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.fa-10x {
+    color: #b8b8b8;;
+}
+
+.fa-10x:hover {
+    color: black;
+}
