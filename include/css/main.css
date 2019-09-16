@@ -1,5 +1,6 @@
 body {
-    font-family: 'Open Sans', sans-serif;
+    /*font-family: 'Open Sans', sans-serif;*/
+    font-family: 'Montserrat', sans-serif !important;
 }
 
 /* Banner */
@@ -18,7 +19,7 @@ body {
 .content {
     display: flex;
     position: absolute;
-    top: 50%;
+    top: 40%;
     width: 100%;
     color: white;
     justify-content: space-between;
@@ -28,8 +29,8 @@ body {
 
 .content-title {
     flex: 1;
-    font-weight: bold;
-    font-size: 50px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 80px;
     padding-bottom: 2vh;
 }
 
@@ -53,7 +54,7 @@ body {
 }
 
 .title {
-    font-weight: bold;
+    font-family: 'Oswald', sans-serif;
     font-size: 50px;
 }
 
@@ -117,9 +118,13 @@ body {
 }
 
 .fa-10x {
-    color: #b8b8b8;;
+    color: #b8b8b8;
 }
 
 .fa-10x:hover {
     color: black;
+}
+
+.footer {
+    padding-bottom: 20vh;
 }
