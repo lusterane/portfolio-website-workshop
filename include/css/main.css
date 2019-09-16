@@ -76,4 +76,36 @@ body {
 .profile-picture {
     display: inline;
     float: right;
+    width: 30%;
 }
+
+/* Work */
+.work-item {
+    padding-bottom: 20vh;
+}
+
+.work-picture {
+    float: left;
+    width: 35%;
+}
+
+.work-text {
+    padding-left: 40%;
+}
+
+.work-item-title-wrapper{
+    width: 100%;
+    padding-bottom: 1vh;
+}
+
+.work-item-title {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.work-item-sub-title {
+    color: #b8b8b8;
+    font-size: 12;
+    padding-left: 2vw;
+}
+
